@@ -25,3 +25,4 @@ Features and decisions deferred from the hackathon build because they require st
 - Audit log visible to the owner (what was accessed, when, by which recipient).
 - Account deletion and vault wipe flow with certificate of deletion.
 - Native mobile app (iOS / Android) for check-in notifications.
+- Per-device share submission for release (each Trusted_Contact enters their own share on their own device; the browser aggregates shares without a single coordinator). Current implementation requires one coordinator to collect all k shares manually.
